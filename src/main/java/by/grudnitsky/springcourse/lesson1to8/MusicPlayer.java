@@ -1,4 +1,4 @@
-package by.grudnitsky.springcourse;
+package by.grudnitsky.springcourse.lesson1to8;
 
 import java.util.ArrayList;
 import java.util.List;

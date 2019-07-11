@@ -1,11 +1,11 @@
-package by.grudnitsky.springcourse;
+package by.grudnitsky.springcourse.lesson1to8;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContex.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 
         ClassicalMusic classicalMusic = context.getBean("musicBean", ClassicalMusic.class);
