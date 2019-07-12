@@ -8,10 +8,12 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+    <context:component-scan base-package="by.grudnitsky.springcourse.lesson9to11"/>
+
+    <!--<context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean9"
-          class="by.grudnitsky.springcourse.lesson9.ClassicalMusic">
+          class="by.grudnitsky.springcourse.lesson9to11to11.ClassicalMusic">
     </bean>
 
     <bean id="musicBean"
@@ -19,7 +21,7 @@
           init-method="doMyInit"
           destroy-method="doMyDestroy"
           factory-method="getClassicalMusic">
-    </bean>
+    </bean>-->
 
 
 
